@@ -1,7 +1,7 @@
 :root {
   --primary-color: rgba(13, 110, 139, 0.75);
-  --secondary-color: rgba(229, 148, 0 , 0.9);
-  --overlay-color: rgba(24, 39, 51 , 0.85);
+  --secondary-color: rgba(229, 148, 0, 0.9);
+  --overlay-color: rgba(24, 39, 51, 0.9);
   --menu-speed: 0.75s;
 }
 
@@ -32,7 +32,7 @@ body {
 
 #showcase:before {
   content: '';
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url('../img/showcase.jpg') no-repeat center center / cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -53,7 +53,6 @@ body {
 #showcase h1 {
   font-size: 4rem;
 }
-
 #showcase p {
   font-size: 1.3rem;
 }
@@ -65,7 +64,7 @@ body {
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 1rem;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in;
   text-decoration: none;
 }
 
